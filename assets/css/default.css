@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+	padding: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	float: left;
+	margin-left: 5%;
+}
+
+textarea.form-control {
+	min-height: 300px;
+}
+
+form button.btn-success {
+	margin-bottom: 20px;
+}
+
+.content {
+	width: 100%;
+	float: left;
+}
+
+.content .card {
+	margin-left: 10px;
+	width: 300px !important;
+	float: left;
+	height: 450px !important;
+	margin-top: 10px;
+}
+
+.content .card .card-title { font-size: 14px; font-weight: bold; } 
+.content .card .card-text { font-size: 12px; }
+.content .card ul.list-group .list-group-item { font-size: 12px; }
+
+.content .card .card-body a { font-size: 14px; color: lightblue; }
+.content .card .card-body a:hover { font-size: 14px; color: orange; }
+
+.new {
+	width: 1000px;
+	height: 0 auto;
+	background-color: #f1f1f1;
+	float: left;
+	border: 1px solid #1e1e1e;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.new .top {
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding: 10px;
+	border-bottom: 1px solid #1e1e1e;
+	position: relative;
+}
+
+.new .top:last-of-type {
+	padding: 20px;
+	height: auto;
+}
+
+.new .top:last-of-type::before {
+	content: 'Conteúdo:';
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+	left: 10px;
+	text-decoration: underline;
+}

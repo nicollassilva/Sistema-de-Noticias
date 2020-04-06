@@ -1,0 +1,10 @@
+RewriteEngine On
+Options -Indexes
+
+ErrorDocument 400 /erro.php
+ErrorDocument 401 /erro.php
+ErrorDocument 403 /erro.php
+ErrorDocument 404 /erro.php
+ErrorDocument 500 /erro.php
+
+RewriteRule ^noticia/([0-9]+)/?$ noticia.php?id=$1 [NC,L]

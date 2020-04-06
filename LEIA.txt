@@ -1,0 +1,5 @@
+Para configurar o sistema basta configurar o arquivo config.php no diretório 
+
+assets/php/Config.php
+
+E importar a database com o nome systemnew.sql no seu phpmyadmin
